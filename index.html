@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>ToDoList</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+	</head>
+<body>
+	<section class="wrapAll">
+		<div id="titleWrap"> 	<h1>To Do List</h1>
+		</div>
+		<section class="formBtnWrap">
+		<section class="formWrap">
+			<form>
+				<input id="enterInput" type="text">
+			</form>
+		</section>
+		<section id="buttonWrap">
+			<button id="addToListBtn" name="add task" > Add </button>
+			<button id="erase" name="delete" > Delete </button>
+			<button id="deleteAll">deleteAll</button>
+		</section>
+	</section>	
+		<section class="listWrap">
+				<ul id="toDoList"> </ul>
+				<span id="task"></span>
+				<span id="taskDone"></span>
+		</section>
+	</section>
+	<script type="text/javascript" src="js/main.js"></script>
+	</body>
+	
+</html>

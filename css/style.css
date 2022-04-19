@@ -1,0 +1,51 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Clearfix Hack */
+.clearfix {
+  content: ".";
+  display: block;
+  clear: both;
+  line-height: 0;
+  height: 0;
+}
+
+body{
+  background-image: url("/Users/resilientcoders/Documents/rc2022A/week5/toDoList/images/backDrop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:50%
+
+}
+
+#wrapAll,.formWrap,.listWrap,#dltBtnWrap{
+  width: 100%;
+
+}
+
+h1{
+  font-family: 'Square Peg', cursive;
+  font-weight: 600;
+  color: rgba(127,86,39,255);
+  font-size: 4rem;
+}
+
+
+
+button{
+  background-color:rgba(169,235,223,255);
+  color:rgba(127,86,39,255);
+  font-weight: 600;
+}
+
+.wrapAll {
+  display: flex;
+  padding: 14% 0% 1% 26%;
+  flex-wrap: wrap;
+}
